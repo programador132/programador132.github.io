@@ -81,7 +81,7 @@ h2 {
     margin: 1rem;
     border: 1px solid #ddd;
     text-align: center;
-    transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease, outline 0.3s ease; /* Agregado 'outline' a la transición */
+    transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease, outline 0.3s ease; 
     flex-basis: calc(33.333% - 2rem);
     box-sizing: border-box;
 }
@@ -98,8 +98,8 @@ h2 {
     cursor: pointer;
     transform: scale(1.05);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    background-color: #f9f9f9; /* Fondo gris claro al pasar el mouse */
-    outline: 2px solid #00f; /* Brillo azul alrededor de la tarjeta al pasar el mouse */
+    background-color: #f9f9f9; 
+    outline: 2px solid #00f; 
 }
 
 footer {
