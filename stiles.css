@@ -54,12 +54,13 @@ header nav ul li a:hover {
 
 #hero {
     display: flex;
-    justify-content: flex-start;
+    justify-content: center; /* Centrado horizontalmente */
     align-items: flex-start;
-    min-height: calc(100vh - 60px);
+    min-height: calc(100vh - 120px); /* Resta la altura del encabezado y del pie de página */
     background: #f5f5f5;
     position: relative;
     padding-top: 60px;
+    padding-bottom: 60px; /* Espacio para el pie de página */
 }
 
 .vertical-rectangle {
@@ -67,10 +68,7 @@ header nav ul li a:hover {
     color: #fff;
     padding: 2rem;
     width: 400px;
-    position: absolute;
-    top: 60px;
-    bottom: 60px;
-    left: 0;
+    height: calc(100vh - 120px); /* Resta la altura del encabezado y del pie de página */
     border-radius: 5px;
     box-sizing: border-box;
     overflow-y: auto;
@@ -86,14 +84,12 @@ header nav ul li a:hover {
 }
 
 .square {
-    width: 400px; /* Cambiado el tamaño del width */
-    height: 400px; /* Mismo tamaño de height que el rectángulo vertical */
+    width: 400px; /* Ancho igual que el rectángulo */
+    height: calc(100vh - 120px); /* Mismo alto que el rectángulo */
     background-color: #333;
-    position: absolute;
-    top: 60px;
-    left: 420px;
     color: #fff;
-    padding: 20px;
+    padding: 2rem;
+    margin-left: 20px; /* Espacio entre el rectángulo y el cuadro */
     border-radius: 5px;
     box-sizing: border-box;
     overflow-y: auto;
