@@ -1,42 +1,42 @@
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+    font-family: Arial, sans-serif
+    margin: 0
+    padding: 0
+    box-sizing: border-box
 }
 
 header {
-    background: #808080;
-    color: #fff;
-    padding: 1rem 0;
+    background: #808080
+    color: #fff
+    padding: 1rem 0
 }
 
 header .container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    display: flex
+    justify-content: space-between
+    align-items: center
 }
 
 header h1 {
-    text-align: left;
-    margin: 0;
-    padding-left: 1rem;
+    text-align: left
+    margin: 0
+    padding-left: 1rem
 }
 
 header nav {
-    text-align: center;
+    text-align: center
 }
 
 header nav ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    display: inline-block;
+    list-style: none
+    margin: 0
+    padding: 0
+    display: inline-block
 }
 
 header nav ul li {
-    display: inline;
-    margin-left: 1rem;
+    display: inline
+    margin-left: 1rem
 }
 
 header nav ul li a {
