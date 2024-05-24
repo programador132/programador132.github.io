@@ -54,13 +54,12 @@ header nav ul li a:hover {
 
 #hero {
     display: flex;
-    justify-content: center; /* Centrado horizontalmente */
+    justify-content: center; 
     align-items: flex-start;
-    min-height: calc(100vh - 120px); /* Resta la altura del encabezado y del pie de página */
-    background: #f5f5f5;
+    min-height: calc(100vh - 120px); 
     position: relative;
     padding-top: 60px;
-    padding-bottom: 60px; /* Espacio para el pie de página */
+    padding-bottom: 60px; 
 }
 
 .vertical-rectangle {
@@ -68,7 +67,7 @@ header nav ul li a:hover {
     color: #fff;
     padding: 2rem;
     width: 400px;
-    height: calc(100vh - 120px); /* Resta la altura del encabezado y del pie de página */
+    height: calc(100vh - 120px); 
     border-radius: 5px;
     box-sizing: border-box;
     overflow-y: auto;
@@ -84,8 +83,8 @@ header nav ul li a:hover {
 }
 
 .square {
-    width: 400px; /* Ancho igual que el rectángulo */
-    height: calc(100vh - 120px); /* Mismo alto que el rectángulo */
+    width: 400px; 
+    height: calc(100vh - 120px);
     background-color: #333;
     color: #fff;
     padding: 2rem;
@@ -112,8 +111,8 @@ p {
 }
 
 footer {
-    background: #333;
-    color: #fff;
+    background: #333
+    color: #fff
     text-align: center;
     padding: 1rem 0;
 }
