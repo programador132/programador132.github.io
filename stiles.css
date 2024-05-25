@@ -1,42 +1,42 @@
 body {
-    font-family: Arial, sans-serif
-    margin: 0
-    padding: 0
-    box-sizing: border-box
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 header {
-    background: #808080
-    color: #fff
-    padding: 1rem 0
+    background: #808080;
+    color: #fff;
+    padding: 1rem 0;
 }
 
 header .container {
-    display: flex
-    justify-content: space-between
-    align-items: center
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 header h1 {
-    text-align: left
-    margin: 0
-    padding-left: 1rem
+    text-align: left;
+    margin: 0;
+    padding-left: 1rem;
 }
 
 header nav {
-    text-align: center
+    text-align: center;
 }
 
 header nav ul {
-    list-style: none
-    margin: 0
-    padding: 0
-    display: inline-block
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
 }
 
 header nav ul li {
-    display: inline
-    margin-left: 1rem
+    display: inline;
+    margin-left: 1rem;
 }
 
 header nav ul li a {
@@ -57,17 +57,17 @@ header nav ul li a:hover {
     justify-content: center; 
     align-items: flex-start;
     min-height: calc(100vh - 120px); 
+    background: #f5f5f5;
     position: relative;
     padding-top: 60px;
     padding-bottom: 60px; 
-}
 
 .vertical-rectangle {
     background: #333;
     color: #fff;
     padding: 2rem;
     width: 400px;
-    height: calc(100vh - 120px); 
+    height: calc(100vh - 120px);
     border-radius: 5px;
     box-sizing: border-box;
     overflow-y: auto;
@@ -83,19 +83,19 @@ header nav ul li a:hover {
 }
 
 .square {
-    width: 400px; 
-    height: calc(100vh - 120px);
+    width: 400px; /* Ancho igual que el rectángulo */
+    height: calc(100vh - 120px); 
     background-color: #333;
     color: #fff;
     padding: 2rem;
-    margin-left: 20px; /* Espacio entre el rectángulo y el cuadro */
+    margin-left: 20px; 
     border-radius: 5px;
     box-sizing: border-box;
     overflow-y: auto;
 }
 
 .container {
-    width: 80%
+    width: 80%;
     margin: 0 auto;
     padding: 2rem 0;
 }
@@ -111,8 +111,8 @@ p {
 }
 
 footer {
-    background: #333
-    color: #fff
+    background: #333;
+    color: #fff;
     text-align: center;
     padding: 1rem 0;
 }
